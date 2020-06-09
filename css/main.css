@@ -300,11 +300,13 @@ svg:hover .partner-block__icon {
 .slider {
   margin-left: 132px;
   max-width: 440px;
+  width: 100%;
 }
 .slider-container {
-  width: 100%;
+  /* width: 100%; */
+  width: 423px;
   height: 100%;
-  /* box-shadow: 0px 0px 30px #E6EBF7; */
+  box-shadow: 0px 0px 40px #E6EBF7;
 }
 .slider-slide {
   padding-bottom: 31px;
@@ -312,7 +314,7 @@ svg:hover .partner-block__icon {
 .slider-block {
   background: #FFFFFF;
   box-sizing: border-box;
-  /* box-shadow: 0px 20px 30px 20px #E6EBF7; */
+  box-shadow: 20px 25px 50px #E6EBF7;
   padding: 40px 68px;
   width: 100%;
   position: relative;
