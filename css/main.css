@@ -315,7 +315,7 @@ svg:hover .partner-block__icon {
   box-sizing: border-box;
   box-shadow: 20px 25px 40px #E6EBF7;
   padding: 40px 68px;
-  width: 423px;
+  width: 100%;
   position: relative;
   /* border-left: 1px solid #D8E3FE;
   border-right: 1px solid #D8E3FE; */
@@ -517,6 +517,9 @@ svg:hover .partner-block__icon {
   }
   .menu {
     padding: 0;
+  }
+  .slider, .slider-container {
+    width: 100%;
   }
 }
 @media (max-width: 350px) {
