@@ -302,7 +302,6 @@ svg:hover .partner-block__icon {
   max-width: 440px;
 }
 .slider-container {
-  /* width: 100%; */
   width: 423px;
   height: 100%;
   box-shadow: 0px 0px 40px #E6EBF7;
@@ -518,12 +517,15 @@ svg:hover .partner-block__icon {
   .menu {
     padding: 0;
   }
-  .slider, .slider-container {
+  .slider{
+    max-width: 100%;
+  }
+  .slider-container {
     width: 100%;
   }
 }
-@media (max-width: 350px) {
+/* @media (max-width: 350px) {
   .slider {
     max-width: 100%;
   }
-}
+} */
