@@ -74,8 +74,8 @@ body {
 }
 .menu-burger {
   position: fixed;
-  right: 50px;
-  top: 50px;
+  right: 20px;
+  top: 20px;
   z-index: 100;
   display: none;
 }
@@ -489,6 +489,9 @@ svg:hover .partner-block__icon {
   }
 }
 @media (max-width: 600px) {
+  .wrap {
+    background-size: cover;
+  }
   .wrap-text__desc {
     max-width: 98%;
   }
